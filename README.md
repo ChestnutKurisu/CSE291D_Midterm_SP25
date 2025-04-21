@@ -1,4 +1,4 @@
-# Midterm Miniproject: Tensegrity Rolling Robot (CSE 291 – SP25)
+# Midterm Miniproject: Tensegrity Rolling Robot (CSE 291D Physics Simulation – SP25)
 
 This repository contains a **node-based tensegrity rolling robot** simulation written in Python.  
 The system’s equations of motion are derived from the **Principle of Least Action**, augmented with a soft penalty for ground contact and optional friction.  
