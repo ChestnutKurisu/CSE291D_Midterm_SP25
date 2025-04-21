@@ -131,7 +131,7 @@ You can freely modify these constants or pass corresponding command-line argumen
 |-------------|------------------|---------------|
 | `python energy_plot.py` | Total mechanical energy with RK4 &nbsp;(\$\Delta t = 10^{-3}\$ s) remains bounded once transient vibrations decay. | ![energy drift](tex/energy_drift.png) |
 | `python friction_test.py` | Static → kinetic Coulomb switch and ground‐penetration penalty. A zero line means no penetration. | ![friction test](tex/friction_test.png) |
-| `python convergence_study.py --T 3` | RK4 global error scales like Δt⁴ on a log–log plot of ‖error‖∞ vs Δt. | ![convergence](tex/rk4_convergence.png) | <!-- NEW row -->
+| `python convergence_study.py` | RK4 global error scales like Δt⁴ on a log–log plot of ‖error‖∞ vs Δt. | ![convergence](tex/rk4_convergence.png) | <!-- NEW row -->
 
 These quick checks give confidence that the integrator is stable for the
 chosen stiffness/time‑step pair and that the friction/contact logic is
