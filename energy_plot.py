@@ -4,8 +4,8 @@ Plot total mechanical energy of the tensegrity robot vs. time.
 
 Usage
 -----
-    python energy_plot.py           # default 10 s run
-    python energy_plot.py 20        # 20 s run
+    python energy_plot.py           # default 10 s run
+    python energy_plot.py 20        # 20 s run
 """
 from __future__ import annotations
 import sys

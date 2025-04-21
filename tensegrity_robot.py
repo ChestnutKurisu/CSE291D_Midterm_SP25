@@ -495,7 +495,7 @@ def create_animation(
             line.set_data(P[[i, j], 0], P[[i, j], 2])
             line.set_3d_properties(P[[i, j], 1])
         nodes._offsets3d = (P[:, 0], P[:, 2], P[:, 1])
-        time_text.set_text("t = 0.00 s")
+        time_text.set_text("t = 0.00 s")
         return rod_lines + cable_lines + [nodes, footprints_scatter, time_text]
 
     def _update(_):
@@ -537,7 +537,7 @@ def create_animation(
             ax.set_xlim(com[0] - span, com[0] + span)
             ax.set_ylim(com[2] - span, com[2] + span)
 
-        time_text.set_text(f"t = {t_global:0.2f} s")
+        time_text.set_text(f"t = {t_global:0.2f} s")
         return rod_lines + cable_lines + [nodes, footprints_scatter, time_text]
 
     anim = animation.FuncAnimation(
@@ -560,7 +560,7 @@ def create_animation(
             bitrate=BITRATE,
             extra_args=["-pix_fmt", "yuv420p"],
         )
-        print(f"[+] Saved high‑quality {total_time:.0f} s video to {save}")
+        print(f"[+] Saved high‑quality {total_time:.0f} s video to {save}")
     else:
         plt.show()
 

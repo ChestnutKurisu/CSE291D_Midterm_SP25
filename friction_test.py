@@ -2,7 +2,7 @@
 """
 Slide‑or‑stick test for the static/kinetic friction logic.
 
-The script drops a 1 kg point mass on an inclined plane using the *exact*
+The script drops a 1 kg point mass on an inclined plane using the *exact*
 same friction parameters you set in tensegrity_robot.py and plots its
 penetration along the plane normal.  With a correct Coulomb switch the
 curve should stay exactly at zero (no penetration) and the block should
